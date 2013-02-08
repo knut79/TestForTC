@@ -10,7 +10,7 @@ namespace TestForTeamCity.Tests
         {
             var p = new Program();
             var result = p.PrintSomeText("per");
-            Assert.AreEqual(result,1);
+            Assert.AreEqual(result,3);
         }
     }
 }
